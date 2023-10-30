@@ -38,7 +38,7 @@ passPeople = []
 # print a list of names and grades just for the people who had more than 5
 
 for grade in grades:
-    passPeople = {key: value for key, value in grades.items() if value > 5}
+    passPeople = {name: grade for name, grade in grades.items() if grade > 5}
 
 
 print(passPeople)
