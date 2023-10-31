@@ -16,10 +16,7 @@ print(numbers)
 
 sentence = "Hello, this is a sentence to test"
 
-sentenceSplit = sentence.split()
+sentenceLen = [len(s) for s in sentence.split()]
 
-sentenceLen = [len(s) for s in sentenceSplit]
-
-print(sentenceSplit)
 print("############################33")
 print(sentenceLen)
