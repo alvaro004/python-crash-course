@@ -48,3 +48,10 @@ divide(15, divisor=0)  # That's OK
 # divide(dividend=15, 0)  # Not OK, named arguments must go after positional arguments
 
 # I recommend you use keyword arguments whenever possible, just because it makes things much more readable and maintainable long-term.
+
+
+def sum(x, y):
+    return x + y
+
+
+print(sum(10, 50))
