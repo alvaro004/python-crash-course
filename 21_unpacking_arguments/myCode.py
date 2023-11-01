@@ -10,3 +10,16 @@ def total(**args):
 
 
 print(f"The total price will be: {total(**fruitPrice)}")
+
+
+print("##################################################")
+
+# acepting and printing an arbitrary number of arguments without explicitly specifying them in the function's parameter list
+
+
+def showElemnts(*args):
+    for arg in args:
+        print(arg)
+
+
+showElemnts([2, 3, 4, 5, "Hola", "Enero"])
